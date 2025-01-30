@@ -1,0 +1,49 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\dataverse-plugin\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F53BABED-EC3C-4B71-BC85-E62C3C0DC0EF}|BIT.Autonumeracion\\BIT.Autonumeracion.csproj|c:\\users\\user\\source\\repos\\dataverse-plugin\\bit.autonumeracion\\plautonumeracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F53BABED-EC3C-4B71-BC85-E62C3C0DC0EF}|BIT.Autonumeracion\\BIT.Autonumeracion.csproj|solutionrelative:bit.autonumeracion\\plautonumeracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PLAutonumeracion.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\dataverse-plugin\\BIT.Autonumeracion\\PLAutonumeracion.cs",
+              "RelativeDocumentMoniker": "BIT.Autonumeracion\\PLAutonumeracion.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\dataverse-plugin\\BIT.Autonumeracion\\PLAutonumeracion.cs",
+              "RelativeToolTip": "BIT.Autonumeracion\\PLAutonumeracion.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAiwDwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T23:55:38.692Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
