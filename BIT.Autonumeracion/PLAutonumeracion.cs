@@ -36,15 +36,16 @@ namespace BIT.Autonumeracion
                     {
                        var queryOnSubTypeRequest = searchBySubTypeRequest(subTipoSolicitud);
                        EntityCollection subTypes = service.RetrieveMultiple(queryOnSubTypeRequest);
-                          var subType = subTypes.Entities[0];
-                          var newSequence = subType.GetAttributeValue<int>("bit_ultimosecuencial") + 1;
-                          subType.Id = subTypes.Entities[0].Id;
-                          subType["bit_ultimosecuencial"] = newSequence;
-                          service.Update(subType);
-                          Entity newRequest = new Entity("bit_solicitud");
-                          newRequest["cr8a0_numerotramite"] = subType.GetAttributeValue<string>("bit_abreviatura") + newSequence;
-                          newRequest.Id = solicitud.Id;
-                          service.Update(newRequest);
+                       Entity newSubTypeRequest =  new Entity("bit_subtipos");
+                       var subType = subTypes.Entities[0];
+                       var newSequence = subType.GetAttributeValue<int>("bit_ultimosecuencial") + 1;
+                       newSubTypeRequest.Id = subType.Id;
+                       newSubTypeRequest["bit_ultimosecuencial"] = newSequence;
+                       service.Update(newSubTypeRequest);
+                       Entity newRequest = new Entity("bit_solicitud");
+                       newRequest["cr8a0_numerotramite"] = subType.GetAttributeValue<string>("bit_abreviatura") + newSequence;
+                       newRequest.Id = solicitud.Id;
+                       service.Update(newRequest);
                     }
                     else
                     {
